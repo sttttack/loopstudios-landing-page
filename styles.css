@@ -12,6 +12,7 @@
     align-items: center;
     padding-top: 40px;
     width: 100%;
+    z-index: 1;
 }
 
 .main {
@@ -21,6 +22,31 @@
     flex-direction: column;
 }
 
+#xxx {
+    width: 100%;
+    height: 676px;
+    top: 0;
+    left: 0;
+    background-color: black;
+    position: relative;
+    padding-left: 43px;
+    display: none;
+    margin-bottom: 96px;
+}
+
+li {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    top: 100px;
+    position: relative;
+    height: 50px;
+
+}
 
 .conteiner_1 {
     display: flex;
@@ -37,21 +63,12 @@
     height: 24px;
 }
 
-.list {
-    position: fixed;
-    flex-direction: column;
-    left: -100%;
-    background-color: black;
-    width: 100%;
-    text-align: center;
-    transition: 0.3s;
-}
-
 #announcement {
     position: absolute;
     width: 327px;
     height: 196px;
     border: 2px solid #FFFFFF;
+    z-index: 0;
 }
 
 h1 {

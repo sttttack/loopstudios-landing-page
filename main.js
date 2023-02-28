@@ -1,9 +1,21 @@
 "use strict";
 
-const burgerMenu = document.querySelector('.menu');
-const navMenu = document.querySelector('.list')
+const menuBtn = document.getElementById('btn_menu');
 
-burgerMenu.addEventListener('click', (event) => {
-    navMenu.classList.toggle('list')
 
+
+
+
+menuBtn.addEventListener('click', (e) => {
+
+    var menuItems = document.getElementById('xxx');
+    var conteinerOne = document.querySelector('.conteiner_1');
+
+    if ( menuItems.style.display === 'none' ) {
+        menuItems.style.display = 'block'
+        conteinerOne.style.display = 'none'
+    } else {
+        menuItems.style.display = 'none';
+        conteinerOne.style.display = 'flex'
+    }
 })
