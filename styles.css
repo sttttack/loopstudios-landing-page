@@ -99,11 +99,6 @@ li a {
     overflow: hidden; 
 }
 
-#logo {
-    width: 144px;
-    height: 24px;
-}
-
 #announcement {
     position: absolute;
     width: 305px;
@@ -246,7 +241,7 @@ footer {
     
 }
 
-.xxx {
+.desktop_view {
     display: none;
 }
 
@@ -359,7 +354,7 @@ h1 {
     padding-left: 40px;
 }
 
-.xxx {
+.desktop_view {
     display: flex;
     align-self: center;
     min-width: 1166px;
