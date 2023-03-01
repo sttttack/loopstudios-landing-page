@@ -1,22 +1,26 @@
 "use strict";
 
 const menuBtn = document.getElementById('menu_btn');
+const menuList = document.getElementById('menu_list')
 
 
 
 menuBtn.addEventListener('click', (e) => {
 
-    menuBtn.classList.toggle("change");
+   
 
     var menuItems = document.getElementById('menu_list');
     var conteinerOne = document.querySelector('.conteiner_1');
 
-    if ( menuItems.style.display === 'none' ) {
+    if ( menuItems.style.display == '' ) {
         menuItems.style.display = 'block'
-        conteinerOne.style.display = 'none'
+        menuBtn.classList.add('change')
         
-    } else {
-        menuItems.style.display = 'none';
+    } else if (menuItems.style.display == 'block') {
+        menuItems.style.display = '';
         conteinerOne.style.display = 'flex'
-    }
+        menuBtn.classList.remove('change')
+    } 
+
+
 })

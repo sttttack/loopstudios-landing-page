@@ -16,53 +16,96 @@
 
 <div class="header">
   <div class="logo"><img src="./images/logo.svg" id="x"></div>
+  
   <div id="menu_btn">
     <div class="bar1"></div>
     <div class="bar2"></div>
     <div class="bar3"></div>
   </div>
-</div>
 
-<div class="menu_items">
-  <ul id="menu_list" style="display: none;">
 
-      <li>About</li>
-      <li>Careers</li>
-      <li>Events</li>
-      <li>Products</li>
-      <li>Support</li>
+      <ul id="menu_list">
 
-  </ul>
+        <li id="li_item"><a href="default.asp">About</a></li>
+        <li id="li_item"><a href="news.asp">Careers</a></li>
+        <li id="li_item"><a href="contact.asp">Events</a></li>
+        <li id="li_item"><a href="about.asp">Products</a></li>
+        <li id="li_item"><a href="about.asp">Support</a></li>
+    
+        </ul>
+
+
+
 </div>
 
 
 <div class="main">
 
-<div class="conteiner_1">
+<div class="conteiner_1" style="display: flex">
   <img src="./images/mobile/image-hero.jpg" id="hero_mobile">
-<h1 id="announcement">Immersive experiences <br> that <br> deliver</h1>
+  <img src="./images/desktop/image-hero.jpg" id="desktop">
+<h1 id="announcement">Immersive experiences <br> that deliver</h1>
 </div>
 
 <div class="conteiner_2">
   <img src="./images/mobile/image-interactive.jpg" id="interactive">
-  <h2>The leader in interactive VR</h2>
+  <img src="./images/desktop/image-interactive.jpg" id="interactive_desktop">
+  <div class="text">
+    <h2>The leader in interactive VR</h2>
   <p id="paragraph">Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed businesses through digital experiences that bind to their brand.</p>
+  </div>
+  
+</div>
+
+<div class="xxx">
+  <h2 id="creation_desktop">Our Creations</h2>
+  <div id="btn_desktop"><p id="desk_btn_text">See All</p></div>
 </div>
 
 <div class="conteiner_3">
 
  <h2 id="creation">Our Creations</h2>
 
- <div class="categories"><img src="./images/mobile/image-deep-earth.jpg" id="images"><p id="description">Deep Earth</p></div>   
- <div class="categories"><img src="./images/mobile/image-night-arcade.jpg" id="images"><p id="description">NIGHT ARCADE</p></div>
- <div class="categories"><img src="./images/mobile/image-soccer-team.jpg" id="images"><p id="description">SOCCER TEAM VR</p></div> 
- <div class="categories"><img src="./images/mobile/image-grid.jpg" id="images"><p id="description">THE <br> GRID</p></div> 
- <div class="categories"><img src="./images/mobile/image-from-above.jpg" id="images"><p id="description">FROM UP ABOVE VR</p></div> 
- <div class="categories"><img src="./images/mobile/image-pocket-borealis.jpg" id="images"><p id="description">POCKET BOREALIS</p></div> 
- <div class="categories"><img src="./images/mobile/image-curiosity.jpg" id="images"><p id="description">THE CURIOSITY</p></div> 
- <div class="categories"><img src="./images/mobile/image-fisheye.jpg" id="images"><p id="description">MAKE IT FISHEYE</p></div> 
+ <div class="categories">
+  <img src="./images/mobile/image-deep-earth.jpg" id="images">
+  <img src="./images/desktop/image-deep-earth.jpg" id="images_desktop">
+ <p id="description">Deep Earth</p></div>
 
- <button id="btn">See All</button>
+ <div class="categories">
+  <img src="./images/mobile/image-night-arcade.jpg" id="images">
+  <img src="./images/desktop/image-night-arcade.jpg" id="images_desktop">
+ <p id="description">NIGHT ARCADE</p></div>
+
+ <div class="categories">
+  <img src="./images/mobile/image-soccer-team.jpg" id="images">
+  <img src="./images/desktop/image-soccer-team.jpg" id="images_desktop">
+ <p id="description">SOCCER TEAM VR</p></div> 
+ 
+ <div class="categories">
+  <img src="./images/mobile/image-grid.jpg" id="images">
+  <img src="./images/desktop/image-grid.jpg" id="images_desktop">
+ <p id="description">THE <br> GRID</p></div>
+
+ <div class="categories">
+  <img src="./images/mobile/image-from-above.jpg" id="images">
+  <img src="./images/desktop/image-from-above.jpg" id="images_desktop">
+ <p id="description">FROM UP ABOVE VR</p></div> 
+
+ <div class="categories">
+  <img src="./images/mobile/image-pocket-borealis.jpg" id="images">
+  <img src="./images/desktop/image-pocket-borealis.jpg" id="images_desktop">
+  <p id="description">POCKET BOREALIS</p></div> 
+ <div class="categories">
+  <img src="./images/mobile/image-curiosity.jpg" id="images">
+  <img src="./images/desktop/image-curiosity.jpg" id="images_desktop">
+  <p id="description">THE CURIOSITY</p></div>
+   
+ <div class="categories">
+  <img src="./images/mobile/image-fisheye.jpg" id="images">
+  <img src="./images/desktop/image-fisheye.jpg" id="images_desktop">
+  <p id="description">MAKE IT FISHEYE</p></div> 
+
+  <button id="btn">See All</button>
 
 </div>
 
@@ -70,11 +113,15 @@
  
 <footer>
   <img src="./images/logo.svg" id="logo">
-  <p id="ftr">About</p>
-  <p id="ftr">Careers</p>
-  <p id="ftr">Events</p>
-  <p id="ftr">Products</p>
-  <p id="ftr">Support</p>
+  
+  <div class="footer_menu">
+    <p id="ftr">About</p>
+    <p id="ftr">Careers</p>
+    <p id="ftr">Events</p>
+    <p id="ftr">Products</p>
+    <p id="ftr">Support</p>
+  </div>
+
   <div class="social_media">
     <img src="./images/icon-facebook.svg">
     <img src="./images/icon-twitter.svg">
